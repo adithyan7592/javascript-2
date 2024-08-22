@@ -60,16 +60,19 @@
 //     default:console.log("invalid");
 //     break;
 // }
-// i=1
+//  i=1
 // while(i<=10){
 //     console.log(i);
 //     i++;
 // }
+
 // i=1
 // do{
 //     console.log(i);
 //     i=i+2;
 // }while(i<=10)
+
+
 //  for(i=1;i<=100;i++)
 //     {
 //     if(i%3==0){
@@ -298,3 +301,125 @@
    // for(let n in obj){
    //    console.log (obj[n]);
    // }
+
+
+ //while loop 
+
+// i=1
+// while(i<=10){
+//     console.log(i);
+//     i++;
+//  }
+
+  //Do while loop
+
+  // let i=1;
+  //  do{
+  //   console.log(i);
+  //   i++;
+  //  }while(i<=10);
+
+//  let gap= Number(prompt("enter the gap"));
+//  let limit= Number(prompt("enter the limit"));
+//  for( let i=0; i<=limit;i+=gap){
+//   console.log(i);
+//  }
+//  let num = Number(prompt("enter the number"))
+//  let tmp=num;
+//  let rev=0;
+//  while(num>0){
+//   rev= rev*10 + num%10;
+//   num= math.flooor(num/10);
+//  }
+//   if (tmp == rev){
+//     alert("is palindrome")
+
+//   }
+//   else {
+//     alert("not")
+//   }
+
+
+
+    // Armstrong numbr
+
+//  let limit= Number(prompt("enter the limit"))
+//  for(i=0;i<=limit;i++){
+// let ang = 0;
+// let num = 1; 
+// let digits = string(num.length);
+// while(num>0){
+//   ang+=(num%10)
+// }
+//  }
+   
+
+
+// spread operator in array
+
+// let x=[1,2,3,4,5,6]
+// let y= [...x]
+// x[0]=20
+// console.log(y[0]);
+
+// spread operator in object
+
+// let x={
+//   name:"adhi",
+//   Age:20,
+// }
+// let y={...x} 
+// x.Age=10
+// console.log(y.Age) 
+
+// destructuring
+
+// let x =[1,2,3,4,5];
+// let [p,q,r,s]=x;
+// console.log(p,q,r,s);
+
+// restoperator in array
+
+
+// let x =[1,2,3,4,5];
+// let [p,q,...r]=x;
+// console.log(p,q,r,);
+
+// destructuring in object
+
+// let a ={
+//   name:"adhi",
+//   Age:12,
+
+// };
+// let {name,Age}=a;
+// console.log(name,Age);
+
+// rest in object
+// let a ={
+//   name:"adhi",
+//   Age:12,
+
+// };
+// let {name,...rest}=a;
+// console.log(name,rest);
+
+// concatination using spread in array
+
+// let x =[1,2,3,4]
+// let y=[5,6,7,8]
+// let z =[...x,...y,10]   
+// console.log(z);
+
+// concatination in object
+
+ let a ={
+   name:"adhi",
+   Age:12,
+
+ };
+ let b ={
+  ...a,place: "kodakara"}
+ console.log(b);
+
+  
