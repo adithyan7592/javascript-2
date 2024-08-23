@@ -413,13 +413,98 @@
 
 // concatination in object
 
- let a ={
-   name:"adhi",
-   Age:12,
+//  let a ={
+//    name:"adhi",
+//    Age:12,
 
- };
- let b ={
-  ...a,place: "kodakara"}
- console.log(b);
+//  };
+//  let b ={
+//   ...a,place: "kodakara"}
+//  console.log(b);
 
-  
+
+//reverse a array
+
+// let x=[1,2,3]
+// let y =[]
+// let i =0
+// while(i < x.length) {
+//   let element = x[i];
+//   y = [element,...y];
+//   i++;
+
+// }
+// console.log(y);
+
+//function
+
+
+// function add(a,b){
+//   let sum = a+b;
+//   return sum
+// }
+// // add(5,10)
+// // add(50,100)
+// let values = [3,7]
+// let sum1 = add(...values)
+// console.log(sum1);
+
+
+// arrow function 
+
+// let add=(a,b) => a+b
+// let values = [3,7]
+// let sum1 = add(...values)
+// console.log(sum1);
+
+// recursive function
+
+
+//  function p(count){
+//   console.log(count);
+//   if(count<10){
+//     p(count+1)
+//   }
+//  }
+//  p(0)
+
+// task
+// function p(count){
+//   if(count>0){
+//     p(count-1)
+//   }
+//   console.log(count);
+//  }
+//  p(10)
+
+// call back function
+
+// function display(value){
+//   console.log("the value is" + value);
+
+// }
+
+// function add(a,b,cb){
+// let sum = a+b
+// cb(sum)
+// }
+// add(3,8,display)
+
+// fibanoocii series 
+function fibonacci(n) {
+  if (n <= 0) {
+    return 0;
+  } else if (n === 1) {
+    return 1;
+  }
+
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+function printFibonacciSeries(n) {
+  for (let i = 0; i < n; i++) {
+    console.log(fibonacci(i));
+  }
+}
+printFibonacciSeries(10);
+
